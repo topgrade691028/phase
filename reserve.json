@@ -1,0 +1,34 @@
+{
+  "bearing_capacity": {
+    "seismic_allow": 16050,
+    "static_allow": 10700,
+    "ultimate": 32100
+  },
+  "dim": {
+    "base": { "thickness": 1.5, "toe_length": 3, "total_length": 8 },
+    "shear_key": { "height": 1, "length": 2, "toe_distance": 3 },
+    "stem": { "bottom": 2, "height": 12, "toe_offset": 0.5, "top": 1 }
+  },
+  "info": {
+    "format": "NOT JSON, this is a: <class 'str'>",
+    "timestamp": "26 August 2023 08:31:54"
+  },
+  "materials": {
+    "concrete_unit_weight": 150,
+    "fc_concrete": 4000,
+    "fy_steel": 60,
+    "soil_unit_weight": 123,
+    "water_unit_weight": 62.4
+  },
+  "soil_data": {
+    "active": 59,
+    "left_el": 0,
+    "passive": 667,
+    "pga": 0.96,
+    "right_el": 20,
+    "right_soil_ang": 10,
+    "seismic": 77,
+    "water_el": 19
+  },
+  "units": { "force": "kip", "length": "ft" }
+}
